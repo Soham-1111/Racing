@@ -128,7 +128,7 @@ function down(){
 }
 
 function left(){
-    if(car1_x=0){
+    if(car1_x>=0){
     car1_x-=10;
         upload_background();
         upload_car1();
@@ -180,7 +180,7 @@ function down2(){
 }
 
 function left2(){
-    if(car2_x=0){
+    if(car2_x>=0){
     car2_x-=10;
         upload_background();
         upload_car2();
